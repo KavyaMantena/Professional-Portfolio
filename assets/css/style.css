@@ -42,7 +42,7 @@ header nav ul li a {
 
 #hero {
   margin-bottom: 30px;
-  height: 250px;
+  height: 500px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/luxury-background-modern-design-abstract-green-dark_343694-2186.avif");
@@ -75,4 +75,51 @@ header nav ul li a {
   color: darkslategrey;
   font-size: x-large;
   margin: 60px;
+}
+
+.section-2 {
+  margin-top: 30px;
+}
+
+.work-2 {
+  display: flex;
+  align-items: center;
+}
+.work-header {
+  border-right: 2px solid goldenrod;
+  height: 200px;
+  min-width: 200px;
+  padding-right: 30px;
+  padding-left: 100px;
+  font-size: 35px;
+  color: darkslategrey;
+}
+
+.work-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+  margin: 60px;
+}
+
+.project-1 img {
+  background-image: url("../images/Screenshot\ 2025-04-03\ at\ 11.19.06\ AM.png");
+  background-size: cover;
+  height: 250px;
+  width: 450px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 40px;
+  border: 2px solid goldenrod;
+}
+
+.project-2 img {
+  background-image: url("../images/Screenshot\ 2025-04-03\ at\ 11.21.11\ AM.png");
+  height: 250px;
+  width: 450px;
+  background-size: cover;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 40px;
+  border: 2px solid #2a607c;
 }
