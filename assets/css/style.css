@@ -43,13 +43,18 @@ header nav ul li a {
 #hero {
   margin-bottom: 30px;
   height: 500px;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 25px;
   background-image: url("../images/luxury-background-modern-design-abstract-green-dark_343694-2186.avif");
   background-size: cover;
 }
 
-#profile-image {
+.profile-image img {
+  max-height: 300px;
+  border-radius: 120px;
+  margin-top: 65px;
+  margin-left: 15px;
+  border: 3px solid gold;
 }
 
 .section-1 {
