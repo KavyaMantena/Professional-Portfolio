@@ -38,6 +38,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
   color: darkslategrey;
+  font-weight: bold;
 }
 
 #hero {
@@ -83,7 +84,7 @@ header nav ul li a {
 }
 
 .section-2 {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .work-2 {
@@ -92,7 +93,7 @@ header nav ul li a {
 }
 .work-header {
   border-right: 2px solid goldenrod;
-  height: 200px;
+  height: 250px;
   min-width: 200px;
   padding-right: 30px;
   padding-left: 100px;
@@ -141,6 +142,7 @@ header nav ul li a {
 
 .contact-header {
   border-right: 2px solid goldenrod;
+  height: 100%;
   min-width: 200px;
   padding-right: 30px;
   padding-left: 100px;
